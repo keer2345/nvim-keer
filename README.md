@@ -9,7 +9,12 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 
 ``` 
 rm -rf .config/nvim
-git remote add origin git@github.com:keer2345/nvim-keer.git .config/nvim
+git clone git@github.com:keer2345/nvim-keer.git .config/nvim
+```
+
+**Alias:**
+``` sh
+alias vim='nvim'
 ```
 
 
