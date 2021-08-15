@@ -1,8 +1,4 @@
 
-```
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
- https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
 
 
 ## Clone this repository
@@ -10,6 +6,11 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 ``` 
 rm -rf .config/nvim
 git clone git@github.com:keer2345/nvim-keer.git .config/nvim
+```
+
+```
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 **Alias:**
